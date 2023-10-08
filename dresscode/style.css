@@ -1,0 +1,49 @@
+*{
+    background-color: #e5e8f0;
+}
+
+body{
+    background-image: url(budynek.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    background-size: 100%;
+    margin: 0px -5px 0px -5px;
+}
+
+h1{
+    background-color: #9aa6c5;
+    box-shadow: 5px -5px 5px #ccd2e2, -5px 5px 5px #ccd2e2;
+    margin: 15px 300px 15px 300px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #252b37;
+    font-size: 35px;
+    font-family: 'Young Serif', serif;
+}
+
+section{
+    background-color: #b3bcd3;
+    box-shadow: 5px -5px 5px #ccd2e2, -5px 5px 5px #ccd2e2;
+    margin: 15px 300px 15px 300px;
+    padding: 10px 10px 10px 10px;
+}
+
+h2{
+    background-color: #b3bcd3;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+    color: #252b37;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p{
+    background-color: #b3bcd3;
+    margin: 2.5px 0px 2.5px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+    color: #353e51;
+    font-size: 15px;
+    font-family: 'Young Serif', serif;
+}

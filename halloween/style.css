@@ -1,0 +1,63 @@
+body{
+    padding: 0px 0px 0px 0px;
+    background-color: #ff8413;
+    background-position: center;
+    background-image: url(img.png);
+}
+
+section{
+    width: 900px;
+    margin: 15px auto 15px auto;
+    padding: 15px 15px 15px 15px;
+    background-color: #ffead9;
+    box-shadow: 0px 10px 10px #d06d16;
+    border: solid 5px #2c1a0c;
+}
+
+h1{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffead9;
+    text-align: center;
+    font-size: 100px;
+    font-family: Creepster;
+    color: #2c1a0c;
+    text-shadow: 0px 10px 5px #ff8413;
+}
+
+h2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffead9;
+    text-align: left;
+    font-size: 50px;
+    font-family: Creepster;
+    color: #2c1a0c;
+    text-shadow: 0px 5px 5px #ff8413;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffead9;
+    text-align: justify;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+ul, li{
+    margin: 0px 15px 0px 0px;
+    padding: 0px 30px 0px 0px;
+    background-color: #ffead9;
+    text-align: justify;
+    font-size: 20px;
+    font-family: calibri;
+    list-style-image: url(dynia.png);
+    list-style-position: inside;
+}
+
+img{
+    width: 250px;
+    margin: 5px auto 5px auto;
+    display: block;
+}

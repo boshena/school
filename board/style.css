@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+td{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+#white{
+    color: #ffffff;
+}
+
+#black{
+    color: #000000;
+}
+
+.td1{
+    background-color: #ffffff;
+}
+
+.td2{
+    background-color: #b58291;
+}
+
+.td3{
+    background-color: #660033;
+}
+
+.td4{
+    background-color: #93bebd;
+}
+
+.td5{
+    background-color: #65646b;
+}
+
+.td6{
+    background-color: #360d1d;
+}
+
+.td7{
+    background-color: #008080 
+}
+
+.td8{
+    background-color: #154141;
+}
+
+.td9{
+    background-color: #000000;
+}

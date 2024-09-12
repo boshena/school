@@ -1,78 +1,91 @@
 <!DOCTYPE HTML>
-<html lang="pl" style="background-color: blanchedalmond">
 <head>
-    <meta charset="UTF-8"/>
     <title>Tabele</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div>
-        <h1>Tabela 1</h1>
-        <table frame="box" rules="all" cellpadding="5" style="background-color: white; text-align: center">
-            <tr style="background-color: violet">
-                <th width="30px" height="30px">1</th><th width="20px">2</th><th width="20px">3</th><th width="20px">4</th><th width="20px">5</th><th width="20px">6</th>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">2</th><td>a</td><td style="background-color: rgb(0, 200, 0)">b</td><td style="background-color: rgb(0, 200, 0)">c</td><td>d</td><td>e</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">3</th><td>f</td><td>g</td><td>h</td><td>i</td><td style="background-color: rgb(0, 150, 0)">j</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">4</th><td>k</td><td>l</td><td>m</td><td>n</td><td style="background-color: rgb(0, 150, 0)">o</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">5</th><td style="background-color: rgb(0, 100, 0)">p</td><td style="background-color: rgb(0, 100, 0)">q</td><td style="background-color: rgb(0, 100, 0)">r</td><td>s</td><td>t</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">6</th><td style="background-color: rgb(0, 100, 0)">u</td><td style="background-color: rgb(0, 100, 0)">w</td><td style="background-color: rgb(0, 100, 0)">x</td><td>y</td><td>z</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <h1>Tabela 2</h1>
-        <table frame="box" rules="all" cellpadding="5" style="background-color: white; text-align: center">
-            <tr style="background-color: violet">
-                <th width="30px" height="30px">1</th><th width="20px">2</th><th width="20px">3</th><th width="20px">4</th><th width="20px">5</th><th width="20px">6</th>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">2</th><td>a</td><td colspan="2" style="background-color: rgb(0, 200, 0)">b c</td><td>d</td><td>e</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">3</th><td>f</td><td>g</td><td>h</td><td>i</td><td rowspan="2" style="background-color: rgb(0, 150, 0)">j o</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">4</th><td>k</td><td>l</td><td>m</td><td>n</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">5</th><td colspan="3" rowspan="2" style="background-color: rgb(0, 100, 0)">p q r </br> u w x</td><td>s</td><td>t</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">6</th><td>y</td><td>z</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <h1>Tabela 3</h1>
-        <table frame="box" rules="all" cellpadding="5" style="background-color: white; text-align: center">
-            <tr style="background-color: violet">
-                <th width="30px" height="30px">1</th><th width="20px">2</th><th width="20px">3</th><th width="20px">4</th><th width="20px">5</th><th width="20px">6</th>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">2</th><td>a</td><td colspan="2" rowspan="3" style="background-color: aquamarine">b c </br> g h </br> l m</td><td>d</td><td>e</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">3</th><td>f</td><td>i</td><td>j</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">4</th><td>k</td><td>n</td><td>o</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">5</th><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td>
-            </tr>
-            <tr>
-                <th height="20px" style="background-color: violet">6</th><td>u</td><td>w</td><td>x</td><td>y</td><td>z</td>
-            </tr>
-        </table>
-    </div>
+    <h1>Tabela 1</h1>
+    <table id="tabela1">
+        <tr class="r0">
+            <th class="k0">Nagłówek1</th>
+            <th class="k1">Nagłówek2</th>
+            <th class="k2">Nagłówek3</th>
+        </tr>
+        <tr class="r1">
+            <td>kol 0 wiersz 1</td>
+            <td class="k1w1">w poziomie <span class="italic">left</span>, w pionie <span class="italic">top</span></td>
+            <td>kol 2 wiersz 1</td>
+        </tr>
+        <tr class="r2">
+            <td>kol 0 wiersz 2</td>
+            <td class="k1w2">w poziomie <span class="italic">center</span>, w pionie <span class="italic">middle</span></td>
+            <td>kol 2 wiersz 2</td>
+        </tr>
+        <tr class="r3">
+            <td>kol 0 wiersz 3</td>
+            <td class="k1w3">w poziomie <span class="italic">right</span>, w pionie <span class="italic">bottom</span></td>
+            <td>kol 2 wiersz 3</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Tabela 2</h1>
+    <table id="tabela2">
+        <tr>
+            <th>Lp</th>
+            <th>Owoce</th>
+            <th>Cena za kg</th>
+            <th>Ilość</th>
+            <th>Wartość</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>pomarańcze</td>
+            <td>5.50 zł</td>
+            <td>2 kg</td>
+            <td>11 zł</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>cytryny</td>
+            <td>2.50 zł</td>
+            <td>4 kg</td>
+            <td>10 zł</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>banany</td>
+            <td>3.50 zł</td>
+            <td>4 kg</td>
+            <td>14 zł</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Tabela 3</h1>
+    <table id="tabela3">
+        <tr>
+            <th>Lp</th>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Klasa</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bożena</td>
+            <td>Borowska</td>
+            <td>5D</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maja</td>
+            <td>Jabłońska</td>
+            <td>5D</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Łukasz</td>
+            <td>Nowacki</td>
+            <td>5D</td>
+        </tr>
+    </table>
 </body>
-</html>

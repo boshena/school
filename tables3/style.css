@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+table{
+    border-collapse: collapse;
+    font-family: calibri;
+}
+
+th{
+    color: white;
+    background-color: #5a9bd5;
+    border: 1px solid #5a9bd5;
+    text-align: left;
+    padding: 2px;
+}
+
+td{
+    border: 1px solid #ccd7d3;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 2px;
+}
+
+.tr1{
+    background-color: #dde9f5;
+}
+
+.tr2{
+    background-color: #ffffff;
+}

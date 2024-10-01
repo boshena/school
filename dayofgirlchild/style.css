@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+body{
+    background-color: #ffe0e5;
+    color: #292223;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 2.5% 0;
+    height: 20vh;
+    width: 100%;
+    clear: both;
+}
+
+.box1{
+    background-color: #775c60;
+    box-shadow: 5px 5px 5px #ffd5dc;
+    margin: 0% auto;
+    padding: 1%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box1:hover{
+    background-color: #4f3d40;
+    box-shadow: 10px 10px 10px #ffcbd3;
+    text-shadow: 1px 1px 1px #d09da6;
+}
+
+.sec1{
+    background-color: #ffc0cb;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    background-color: #775c60;
+    box-shadow: 5px 5px 5px #ffd5dc;
+    margin: 0% 2.5%;
+    padding: 1%;
+    width: 26%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.box2:hover{
+    background-color: #4f3d40;
+    box-shadow: 10px 10px 10px #ffcbd3;
+    text-shadow: 1px 1px 1px #d09da6;
+}
+
+.sec2{
+    background-color: #ffc0cb;
+    text-align: center;
+    height: 98%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    background-color: #775c60;
+    box-shadow: 5px 5px 5px #ffd5dc;
+    margin: 0% 11%;
+    padding: 1%;
+    width: 26%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.box3:hover{
+    background-color: #4f3d40;
+    box-shadow: 10px 10px 10px #ffcbd3;
+    text-shadow: 1px 1px 1px #d09da6;
+}
+
+.box3 a{
+    background-color: #ffc0cb;
+    text-align: center;
+    height: 98%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#div1{
+    cursor: crosshair;
+    margin: auto;
+}
+
+#div2{
+    cursor: e-resize;
+}
+
+#div3{
+    cursor: move;
+
+}
+
+#div4{
+    cursor: w-resize;
+}
+
+#div5{
+    cursor: help;
+}
+
+#div5 a:hover{
+    cursor: help;
+}
+
+#div6{
+    cursor: pointer;
+}
+
+#div6 a:hover{
+    cursor: pointer;
+}
+
+a, a:hover{
+    color: #292223;
+    text-decoration: none;
+}
+
+#mis{
+    margin: auto;
+    width: 259px;
+    clear: both;
+}

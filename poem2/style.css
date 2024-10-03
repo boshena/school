@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#autor{
+    font-family: Calibri;
+    font-style: italic;
+    text-shadow: 1px 1px 1px grey;
+    color:mediumvioletred;
+    text-decoration: dotted underline darkcyan;
+}
+
+#tytul{
+    font-family: Calibri;
+    font-style: italic;
+    text-shadow: 2px 2px 2px grey;
+    color:burlywood;
+    text-decoration: double underline beige;
+}
+
+#tresc{
+    padding: 10px;
+    font-family: Calibri;
+    color: midnightblue;
+    background-color: aliceblue;
+    width: fit-content;
+    border: 1px dashed cornflowerblue;
+}
